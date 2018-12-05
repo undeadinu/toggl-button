@@ -38,6 +38,10 @@ export default {
     url: '*://*.axosoft.com/*',
     name: 'Axosoft'
   },
+  'azure.com': {
+    url: '*://*.azure.com/*',
+    name: 'AzureDevOps / Visual Studio'
+  },
   'backlog.jp': {
     url: '*://*.backlog.jp/*',
     name: 'Backlog'
@@ -537,14 +541,6 @@ export default {
   'v1host.com': {
     url: '*://*.v1host.com/*',
     name: 'VersionOne'
-  },
-  'visualstudio.com': {
-    url: '*://*.visualstudio.com/*',
-    name: 'VisualStudio'
-  },
-  'azure.com': {
-    url: '*://*.azure.com/*',
-    name: 'VisualStudio'
   },
   'waffle.io': {
     url: '*://waffle.io/*',

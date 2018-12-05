@@ -1056,8 +1056,8 @@ SingleTaskPaneToolbar .toggl-button.asana-board, /* new ui v1 */
   position: static;
 }
 
-/********* VISUAL-STUDIO *********/
-.toggl-button.visual-studio-online {
+/********* AZURE DEV OPS (formerly VISUAL STUDIO) *********/
+.toggl-button.azure-dev-ops {
   font-size: 12px;
   margin: 3px 0 0 20px;
 }

@@ -1,8 +1,7 @@
 /*
- * 2018-09
- * Warning, Visual Studio Team Services changed layout slightly (at least in HTML structure)
- * Some additional mumbo jumbo for detection is required
- * See more below
+ * FYI as of around November 2018, VSTS rebranded to "Azure dev ops"
+ *
+ * 2018-09 layout
 */
 'use strict';
 
@@ -35,7 +34,7 @@ togglbutton.render(
       );
 
     link = togglbutton.createTimerLink({
-      className: 'visual-studio-online',
+      className: 'azure-dev-ops',
       description: descriptionSelector,
       projectName: projectSelector
     });
