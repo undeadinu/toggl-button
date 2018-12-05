@@ -23,6 +23,11 @@ function descriptionSelector () {
     (formTitleElem ? formTitleElem.value : '');
 }
 
+function tagsSelector () {
+  var tags = Array.from(document.querySelectorAll('.tags-items-container .tag-item'))
+  return tags.map((tagElement) => tagElement.textContent.trim())
+}
+
 togglbutton.render(
   '.witform-layout-content-container:not(.toggl)',
   { observe: true },
@@ -36,7 +41,8 @@ togglbutton.render(
     link = togglbutton.createTimerLink({
       className: 'azure-dev-ops',
       description: descriptionSelector,
-      projectName: projectSelector
+      projectName: projectSelector,
+      tags: tagsSelector
     });
 
     // For new layout vs_activeClassElem is not longer required, we can skip it
